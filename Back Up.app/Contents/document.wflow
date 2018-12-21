@@ -99,7 +99,7 @@ git push</string>
 				<key>OutputUUID</key>
 				<string>2B86D515-8728-4C6B-A157-FDAAC7031EB5</string>
 				<key>ShowWhenRun</key>
-				<true/>
+				<false/>
 				<key>UUID</key>
 				<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
 				<key>UnlocalizedApplications</key>
@@ -177,7 +177,7 @@ git push</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:304.000000</string>
+				<string>309.000000:432.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -205,7 +205,10 @@ git push</string>
 				<key>AMParameterProperties</key>
 				<dict>
 					<key>message</key>
-					<dict/>
+					<dict>
+						<key>tokenizedValue</key>
+						<array/>
+					</dict>
 					<key>subtitle</key>
 					<dict/>
 					<key>title</key>
@@ -230,7 +233,7 @@ git push</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>message</key>
-					<string></string>
+					<string>$(9121B3D1-F922-4056-AC64-9181AFE0B0DF)</string>
 					<key>subtitle</key>
 					<string></string>
 					<key>title</key>
@@ -307,7 +310,7 @@ git push</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:493.000000</string>
+				<string>309.000000:801.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -325,6 +328,19 @@ git push</string>
 			<string>98187C7F-0238-4BD1-9960-DC1E10B48A3F - 98187C7F-0238-4BD1-9960-DC1E10B48A3F</string>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>9121B3D1-F922-4056-AC64-9181AFE0B0DF</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Text</string>
+			<key>name</key>
+			<string>Text</string>
+			<key>value</key>
+			<string>Text</string>
+		</dict>
+	</array>
 	<key>workflowMetaData</key>
 	<dict>
 		<key>workflowTypeIdentifier</key>
