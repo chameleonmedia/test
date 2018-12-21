@@ -97,7 +97,7 @@ git pull</string>
 				<key>OutputUUID</key>
 				<string>2B86D515-8728-4C6B-A157-FDAAC7031EB5</string>
 				<key>ShowWhenRun</key>
-				<true/>
+				<false/>
 				<key>UUID</key>
 				<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
 				<key>UnlocalizedApplications</key>
@@ -271,7 +271,7 @@ git push</string>
 				<key>OutputUUID</key>
 				<string>C9F93418-FB4C-49BB-97A0-5328475182FF</string>
 				<key>ShowWhenRun</key>
-				<true/>
+				<false/>
 				<key>UUID</key>
 				<string>0B984F15-310F-4645-A9F5-799249A92C93</string>
 				<key>UnlocalizedApplications</key>
@@ -413,7 +413,7 @@ git push</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
+				<false/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -459,7 +459,7 @@ git push</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:643.000000</string>
+				<string>309.000000:695.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -597,7 +597,7 @@ git push</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:832.000000</string>
+				<string>309.000000:884.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -607,21 +607,21 @@ git push</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>89989954-CBC9-4D41-843B-D7D4EFD6D36F</key>
+		<key>0BD6A6F4-99E4-40E6-801A-31308928CAAC</key>
 		<dict>
 			<key>from</key>
 			<string>0B984F15-310F-4645-A9F5-799249A92C93 - 0B984F15-310F-4645-A9F5-799249A92C93</string>
 			<key>to</key>
 			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
 		</dict>
-		<key>AE7FA0A3-8983-4850-9A3F-B4D1FD28700C</key>
+		<key>2D68747B-D0AA-410D-9561-CEBFB59BAE20</key>
 		<dict>
 			<key>from</key>
 			<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4 - 4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
 			<key>to</key>
 			<string>0B984F15-310F-4645-A9F5-799249A92C93 - 0B984F15-310F-4645-A9F5-799249A92C93</string>
 		</dict>
-		<key>D0B488EA-3E67-41F8-ADF1-A79EB6CCC674</key>
+		<key>D773A82B-FAC9-4D3B-BEC0-83CAEF7F74AC</key>
 		<dict>
 			<key>from</key>
 			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
