@@ -234,7 +234,7 @@ git pull</string>
 					<string>cd Desktop/Test/
 git add .
 git commit -am "`date` Back up"
-git push</string>
+git push </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -607,21 +607,21 @@ git push</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>92314BB6-5EBC-44D8-86E9-03C5F7E49A65</key>
-		<dict>
-			<key>from</key>
-			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
-			<key>to</key>
-			<string>F3EE93C5-DF83-4553-B9D7-89636ACEBDA2 - F3EE93C5-DF83-4553-B9D7-89636ACEBDA2</string>
-		</dict>
-		<key>D1882E28-45F8-4221-9724-D1CDC763F4C4</key>
+		<key>007DFC36-6DB0-4D29-8E1A-C5484105CE8F</key>
 		<dict>
 			<key>from</key>
 			<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4 - 4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
 			<key>to</key>
 			<string>0B984F15-310F-4645-A9F5-799249A92C93 - 0B984F15-310F-4645-A9F5-799249A92C93</string>
 		</dict>
-		<key>FA47A29F-38BB-4C74-9183-9D06CBE7D094</key>
+		<key>2546B126-B8E6-4E5A-AF40-7798E1D7F247</key>
+		<dict>
+			<key>from</key>
+			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
+			<key>to</key>
+			<string>F3EE93C5-DF83-4553-B9D7-89636ACEBDA2 - F3EE93C5-DF83-4553-B9D7-89636ACEBDA2</string>
+		</dict>
+		<key>F85B5496-5308-4635-9E8A-0A7189716249</key>
 		<dict>
 			<key>from</key>
 			<string>0B984F15-310F-4645-A9F5-799249A92C93 - 0B984F15-310F-4645-A9F5-799249A92C93</string>
