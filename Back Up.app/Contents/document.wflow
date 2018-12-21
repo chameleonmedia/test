@@ -175,7 +175,7 @@ git pull</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:304.000000</string>
+				<string>309.000000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -349,7 +349,7 @@ git push</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:538.000000</string>
+				<string>309.000000:434.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -413,7 +413,7 @@ git push</string>
 				<key>CFBundleVersion</key>
 				<string>1.0.2</string>
 				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
+				<true/>
 				<key>CanShowWhenRun</key>
 				<true/>
 				<key>Category</key>
@@ -459,7 +459,7 @@ git push</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:695.000000</string>
+				<string>309.000000:539.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -597,7 +597,7 @@ git push</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:884.000000</string>
+				<string>309.000000:728.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -607,26 +607,26 @@ git push</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0BD6A6F4-99E4-40E6-801A-31308928CAAC</key>
+		<key>92314BB6-5EBC-44D8-86E9-03C5F7E49A65</key>
 		<dict>
 			<key>from</key>
-			<string>0B984F15-310F-4645-A9F5-799249A92C93 - 0B984F15-310F-4645-A9F5-799249A92C93</string>
-			<key>to</key>
 			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
+			<key>to</key>
+			<string>F3EE93C5-DF83-4553-B9D7-89636ACEBDA2 - F3EE93C5-DF83-4553-B9D7-89636ACEBDA2</string>
 		</dict>
-		<key>2D68747B-D0AA-410D-9561-CEBFB59BAE20</key>
+		<key>D1882E28-45F8-4221-9724-D1CDC763F4C4</key>
 		<dict>
 			<key>from</key>
 			<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4 - 4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
 			<key>to</key>
 			<string>0B984F15-310F-4645-A9F5-799249A92C93 - 0B984F15-310F-4645-A9F5-799249A92C93</string>
 		</dict>
-		<key>D773A82B-FAC9-4D3B-BEC0-83CAEF7F74AC</key>
+		<key>FA47A29F-38BB-4C74-9183-9D06CBE7D094</key>
 		<dict>
 			<key>from</key>
-			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
+			<string>0B984F15-310F-4645-A9F5-799249A92C93 - 0B984F15-310F-4645-A9F5-799249A92C93</string>
 			<key>to</key>
-			<string>F3EE93C5-DF83-4553-B9D7-89636ACEBDA2 - F3EE93C5-DF83-4553-B9D7-89636ACEBDA2</string>
+			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -648,6 +648,14 @@ git push</string>
 			<string>com.apple.Automator.Variable.Storage</string>
 			<key>name</key>
 			<string>Text 2</string>
+		</dict>
+		<dict>
+			<key>UUID</key>
+			<string>F8E7BFA8-3ADF-4432-BCD4-90C3A98D2D92</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Storage</string>
+			<key>name</key>
+			<string>Date</string>
 		</dict>
 	</array>
 	<key>workflowMetaData</key>
