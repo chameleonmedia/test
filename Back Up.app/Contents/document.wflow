@@ -233,7 +233,7 @@ git pull</string>
 					<key>COMMAND_STRING</key>
 					<string>cd Desktop/Test/
 git add .
-git commit -am "Back up"
+git commit -am "`date` Back up"
 git push</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
