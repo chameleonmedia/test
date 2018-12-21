@@ -98,6 +98,8 @@ git push</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>2B86D515-8728-4C6B-A157-FDAAC7031EB5</string>
+				<key>ShowWhenRun</key>
+				<true/>
 				<key>UUID</key>
 				<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
 				<key>UnlocalizedApplications</key>
@@ -175,7 +177,7 @@ git push</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:252.000000</string>
+				<string>309.000000:304.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -302,12 +304,10 @@ git push</string>
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:441.000000</string>
+				<string>309.000000:493.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -317,7 +317,7 @@ git push</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>B2BF9F72-5355-4748-AE26-9AFBE2DF134A</key>
+		<key>F1131196-CA15-47D0-A574-A4DCC28032EF</key>
 		<dict>
 			<key>from</key>
 			<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4 - 4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
