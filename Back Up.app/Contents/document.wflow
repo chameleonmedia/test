@@ -97,7 +97,7 @@ git pull</string>
 				<key>OutputUUID</key>
 				<string>2B86D515-8728-4C6B-A157-FDAAC7031EB5</string>
 				<key>ShowWhenRun</key>
-				<false/>
+				<true/>
 				<key>UUID</key>
 				<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
 				<key>UnlocalizedApplications</key>
@@ -173,14 +173,14 @@ git pull</string>
 					</dict>
 				</dict>
 				<key>isViewVisible</key>
-				<false/>
+				<true/>
 				<key>location</key>
-				<string>309.000000:111.000000</string>
+				<string>309.000000:304.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>action</key>
@@ -213,8 +213,6 @@ git pull</string>
 					<key>shell</key>
 					<dict/>
 					<key>source</key>
-					<dict/>
-					<key>temporary items path</key>
 					<dict/>
 				</dict>
 				<key>AMProvides</key>
@@ -272,6 +270,8 @@ git push</string>
 				</array>
 				<key>OutputUUID</key>
 				<string>C9F93418-FB4C-49BB-97A0-5328475182FF</string>
+				<key>ShowWhenRun</key>
+				<true/>
 				<key>UUID</key>
 				<string>0B984F15-310F-4645-A9F5-799249A92C93</string>
 				<key>UnlocalizedApplications</key>
@@ -346,12 +346,10 @@ git push</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:473.000000</string>
+				<string>309.000000:538.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -380,8 +378,6 @@ git push</string>
 				</array>
 				<key>AMParameterProperties</key>
 				<dict>
-					<key>temporary items path</key>
-					<dict/>
 					<key>variableUUID</key>
 					<dict>
 						<key>isPathPopUp</key>
@@ -460,12 +456,10 @@ git push</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:578.000000</string>
+				<string>309.000000:643.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -504,8 +498,6 @@ git push</string>
 						<key>tokenizedValue</key>
 						<array/>
 					</dict>
-					<key>temporary items path</key>
-					<dict/>
 					<key>title</key>
 					<dict>
 						<key>tokenizedValue</key>
@@ -602,12 +594,10 @@ git push</string>
 						<string>2</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:947.000000</string>
+				<string>309.000000:832.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -617,26 +607,26 @@ git push</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>38E737ED-64F8-4AB3-8AB8-6402E675E13B</key>
+		<key>89989954-CBC9-4D41-843B-D7D4EFD6D36F</key>
 		<dict>
 			<key>from</key>
 			<string>0B984F15-310F-4645-A9F5-799249A92C93 - 0B984F15-310F-4645-A9F5-799249A92C93</string>
 			<key>to</key>
 			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
 		</dict>
-		<key>8ECAC391-9124-4013-812C-AC02BEE703B3</key>
-		<dict>
-			<key>from</key>
-			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
-			<key>to</key>
-			<string>F3EE93C5-DF83-4553-B9D7-89636ACEBDA2 - F3EE93C5-DF83-4553-B9D7-89636ACEBDA2</string>
-		</dict>
-		<key>D506017B-48A1-42E1-9F3A-E544D722111D</key>
+		<key>AE7FA0A3-8983-4850-9A3F-B4D1FD28700C</key>
 		<dict>
 			<key>from</key>
 			<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4 - 4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
 			<key>to</key>
 			<string>0B984F15-310F-4645-A9F5-799249A92C93 - 0B984F15-310F-4645-A9F5-799249A92C93</string>
+		</dict>
+		<key>D0B488EA-3E67-41F8-ADF1-A79EB6CCC674</key>
+		<dict>
+			<key>from</key>
+			<string>181DBA95-5352-4A55-BFEA-0B0C3AE531E3 - 181DBA95-5352-4A55-BFEA-0B0C3AE531E3</string>
+			<key>to</key>
+			<string>F3EE93C5-DF83-4553-B9D7-89636ACEBDA2 - F3EE93C5-DF83-4553-B9D7-89636ACEBDA2</string>
 		</dict>
 	</dict>
 	<key>variables</key>
