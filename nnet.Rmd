@@ -1,0 +1,90 @@
+---
+title: "Untitled"
+author: "Gareth Cork"
+date: "16/05/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Binary threshold neuron**
+
+$$
+\begin{cases}
+  1 \text{ if } \sum_i x_i w_i + \theta > 0\\
+  0
+\end{cases}
+$$
+
+**Rectified linear neuron**
+- Linear weighted sum of inputs
+- Output is non linear
+
+$$
+\begin{cases}
+  \sum_i x_i w_i + \theta \text{ if } \sum_i x_i w_i + \theta > 0\\
+  0
+\end{cases}
+$$
+
+**Sigmoid neurons**
+
+- Smooth bounded outputs
+- Easy to compute derivatives
+
+$$
+\frac{1}{1+e^{-(\sum_i x_i w_i + \theta)}}
+$$
+
+**Stocastic binary neurons**
+- Randomly choose 1 or 0 based on the probability from the sigmoid
+
+
+## Feedforward neural network
+
+The most common that takes inputs to outputs. The hidden layer takes representations of the previous layer.
+
+## Recurrent neural network
+
+Directed cycles in their connection graph. i.e. you can get back to your starting point.
+
+However they are complicated to train
+
+They are good to model sequential data, same weights at each time step. They take as inputs the previous hidden state and the input. They can remember information in the hidden state for a long time, but hard to train them.
+
+## The perceptron
+
+- Raw input into vector of feature activation i.e. we create good features
+- Then learn to weight each of the features.
+- If evidence above a threshold then activate i.e. perceptron
+
+Features -> Decision
+
+.. insert ..
+
+need multiple layers of adaptive non-liear hidden units - difficult to train.
+
+Linear neurons $w^Tx$ to minimise the squared error of $y-\hat{y}$
+
+
+```{r}
+price.fish<-50
+price.chips<-50
+price.peas<-50
+learn<-1/200
+for(i in 1:1000){
+    quantity.fish<-c(2,4,4)
+    quantity.chips<-c(5,4,5)
+    quantity.peas<-c(3,10,3)
+    target.price<-150*quantity.fish+quantity.chips*50+quantity.peas*100
+    price <- quantity.fish*price.fish + quantity.chips*price.chips + quantity.peas*price.peas
+    price.fish <- price.fish +learn*sum(quantity.fish*(target.price-price))
+    price.chips <- price.chips +learn*sum(quantity.chips*(target.price-price))
+    price.peas <- price.peas +learn*sum(quantity.peas*(target.price-price))
+}
+
+(price.fish)
+(price.chips)
+(price.peas)
