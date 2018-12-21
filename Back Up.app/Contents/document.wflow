@@ -192,12 +192,124 @@ git push</string>
 					<key>Container</key>
 					<string>List</string>
 					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>variableUUID</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<false/>
+						<key>selectedVariableUUID</key>
+						<string>9121B3D1-F922-4056-AC64-9181AFE0B0DF</string>
+						<key>variableUUIDsInMenu</key>
+						<array/>
+					</dict>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>*</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Set Value of Variable.action</string>
+				<key>ActionName</key>
+				<string>Set Value of Variable</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>variableUUID</key>
+					<string>9121B3D1-F922-4056-AC64-9181AFE0B0DF</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.SetValueofVariable</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>Set_Value_of_Variable</string>
+				<key>InputUUID</key>
+				<string>C7F8B072-F21F-49E7-8195-24D64BF60427</string>
+				<key>Keywords</key>
+				<array>
+					<string>variable</string>
+					<string>binding</string>
+					<string>input</string>
+					<string>output</string>
+					<string>storage</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>B2DEF57C-BD21-4691-B6BA-A074FDD2723C</string>
+				<key>UUID</key>
+				<string>17BA895A-AAB6-4B8C-A752-121A6E90D41F</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>variableUUID</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>309.000000:717.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
 					<true/>
 					<key>Types</key>
 					<array/>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0</string>
+				<string>v.1.0</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Automator</string>
@@ -207,10 +319,15 @@ git push</string>
 					<key>message</key>
 					<dict>
 						<key>tokenizedValue</key>
-						<array/>
+						<array>
+							<string>$(9121B3D1-F922-4056-AC64-9181AFE0B0DF)</string>
+						</array>
 					</dict>
 					<key>subtitle</key>
-					<dict/>
+					<dict>
+						<key>tokenizedValue</key>
+						<array/>
+					</dict>
 					<key>title</key>
 					<dict>
 						<key>tokenizedValue</key>
@@ -310,7 +427,7 @@ git push</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:801.000000</string>
+				<string>309.000000:958.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Display Notification.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -320,10 +437,17 @@ git push</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>F1131196-CA15-47D0-A574-A4DCC28032EF</key>
+		<key>85C3ECA9-4DE2-443A-95DF-B624CE8BBFD4</key>
 		<dict>
 			<key>from</key>
 			<string>4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4 - 4AB3015C-0427-4A9B-AD9F-3F66C97DA5E4</string>
+			<key>to</key>
+			<string>17BA895A-AAB6-4B8C-A752-121A6E90D41F - 17BA895A-AAB6-4B8C-A752-121A6E90D41F</string>
+		</dict>
+		<key>A6297429-8AFA-44E2-BF24-333708AE6619</key>
+		<dict>
+			<key>from</key>
+			<string>17BA895A-AAB6-4B8C-A752-121A6E90D41F - 17BA895A-AAB6-4B8C-A752-121A6E90D41F</string>
 			<key>to</key>
 			<string>98187C7F-0238-4BD1-9960-DC1E10B48A3F - 98187C7F-0238-4BD1-9960-DC1E10B48A3F</string>
 		</dict>
@@ -338,7 +462,7 @@ git push</string>
 			<key>name</key>
 			<string>Text</string>
 			<key>value</key>
-			<string>Text</string>
+			<string>[master 4e58d87] Back up</string>
 		</dict>
 	</array>
 	<key>workflowMetaData</key>
