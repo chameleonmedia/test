@@ -12,36 +12,6 @@ knitr::opts_chunk$set(echo = TRUE)
 **Binary threshold neuron**
 
 $$
-\begin{cases}
-  1 \text{ if } \sum_i x_i w_i + \theta > 0\\
-  0
-\end{cases}
-$$
-
-**Rectified linear neuron**
-- Linear weighted sum of inputs
-- Output is non linear
-
-$$
-\begin{cases}
-  \sum_i x_i w_i + \theta \text{ if } \sum_i x_i w_i + \theta > 0\\
-  0
-\end{cases}
-$$
-
-**Sigmoid neurons**
-
-- Smooth bounded outputs
-- Easy to compute derivatives
-
-$$
-\frac{1}{1+e^{-(\sum_i x_i w_i + \theta)}}
-$$
-
-**Stocastic binary neurons**
-- Randomly choose 1 or 0 based on the probability from the sigmoid
-
-
 ## Feedforward neural network
 
 The most common that takes inputs to outputs. The hidden layer takes representations of the previous layer.
